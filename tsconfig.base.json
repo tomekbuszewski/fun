@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@fun/is-odd": ["packages/is-odd/src/index.ts"],
+      "@fun/vite-config": ["packages/vite-config/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
